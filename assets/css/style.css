@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inconsolata&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inconsolata:wght@400;500&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inconsolata:wght@400;500&family=Playfair+Display:wght@500&family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;900&display=swap');
+
+/*...  menu part start .. */
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    background: #666;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+
+
+
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: tahoma;
+
+}
+
+ul li a:hover {
+
+    color: #ada238;
+}
+
+.menu-item:hover {
+    background: #1f5a92;
+}
+
+.dropdown {}
+
+.dropdown-content {
+    background: #a46222;
+    box-shadow: 0 8px 16px 0 rgb(255, 64, 0);
+    display: none;
+
+
+}
+
+ul li a:hover .icn {
+    color: #1f5a92;
+    transition: .3s;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #58175a;
+}
+
+.dropdown-content a:hover {
+    background: #4b9623;
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    min-width: 150px;
+}
+
+.fb {
+    margin-left: 370px;
+
+}
+/*...  menu part end .. */
+
+/*...  background Image part start .. */
+
+.background-pic {
+    background: url('../images/pabel-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    margin-top: 0x;
+    overflow: hidden;
+}
+
+.background-pic h1 {
+    text-align: right;
+    font-size: 40px;
+    font-family: tahoma;
+    line-height: 1.5;
+    color: #666;
+}
+
+.background-pic h2 {
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.5;
+     color:  #666;
+
+
+}
+
+.background-pic h3 {
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Advent Pro', sans-serif;
+    line-height: 1.5;
+     color:  #666;
+}
+
+.background-pic p {
+    text-align:right;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+     color:  #666;
+
+}
+
+.background-pic a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    transition: .7s;
+   float: right;
+    transform: translateX(-20px)
+}
+
+.background-pic a:hover {
+    background: #1f5a92;
+    color: black;
+
+}
+/*...  background Image part end .. */
+
+/*...  course part start .. */
+
+.courses {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+    position: relative;
+    background: #ddd;
+    overflow: hidden;
+}
+
+.courses h1::after {
+    content: "";
+    width: 170px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: 10px;
+    right: 580px;
+}
+
+.web-course {
+    width: 100%;
+    height: 450px;
+    background-color:#ddd;
+
+
+}
+
+.html-course {
+    width: 300px;
+    height: 250px;
+    background-color: blanchedalmond;
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+
+}
+
+.card {
+    display: inline-block;
+}
+
+.css-course {
+    width: 300px;
+    height: 250px;
+    background-color: blanchedalmond;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.bootstrap-course {
+    width: 300px;
+    height: 250px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.iqon-1 {
+    font-size: 80px;
+    margin-left: 115px;
+    margin-top: 20px;
+
+}
+
+.iqon-2 {
+    font-size: 80px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+.iqon-3 {
+    font-size: 80px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+.card h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    ;
+}
+
+.box:hover {
+    background: #1f5a92;
+    transition: 0.7s;
+    color: white;
+}
+/*...  course part end.. */
+
+/*...  service part start .. */
+
+.service {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+    position: relative;
+    padding-top: 30px;
+    
+        
+
+}
+
+
+
+.service h1 {
+    margin: 120px;
+}
+
+.service h1::before {
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: 5px;
+    right: 570px;
+
+
+}
+
+.web-service {
+    width: 100%;
+    height: 300px;
+   
+}
+.web-service {
+    padding-bottom: 150px;
+}
+
+.web-service img {
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+.web-service{
+  display: block;
+}
+.web-service .container-one{
+    display: inline-block;
+}
+
+
+/*...  service part end .. */
+
+/*...  about part start .. */
+
+.about {
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    background: #ddd;
+  
+   
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    position: relative;
+   
+}
+
+.about h1::before {
+    content: "";
+    width: 180px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 580px;
+
+
+}
+.about-picture{
+   width: 100%;
+    height: 500px;
+    background-color: #ddd;
+    padding-bottom: 60px
+}
+.text:hover i{
+    color:#1f5a92;
+}
+
+.about-picture img {
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    overflow: hidden;
+    box-shadow: 2px 8px 10px 2px #000;
+
+
+}
+
+
+.about-box {
+    width: 65%;
+    height: 330px;
+    background-color:#ddd;
+   float: right;
+    margin-left: 130px;
+    margin-top: -300px;
+    border: 2px solid gray;
+   
+
+
+}
+
+.about-box p {
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+     padding: 20px;
+    
+
+}
+
+
+
+/*...  about part end .. */
+
+
+
+/*...  contact part start .. */
+
+
+
+
+
+.contact{
+    width: 100%;
+    height: 150px;
+    background-color:#333;
+    overflow: hidden;
+    margin-top:50px;
+    margin: 0;
+   
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 5px;
+    position: relative;
+    padding-top: 30px;
+    transform: translateY(-30px);
+    color:#ddd;
+  
+    
+   
+}
+.contact h1:hover{
+    color: #318cb6;
+}
+
+.contact h1::before {
+    content: "";
+    width: 220px;
+    height: 5px;
+    background-color: #ddd;
+    position: absolute;
+    bottom: 0;
+    right: 555px;
+    bottom: -4px;
+
+
+}
+.contact h1::before:hover{
+     color: #318cb6;
+}
+.form-cover{
+    width: 100%;
+    height: 400px;
+    background-color:darkslategrey;
+    overflow: hidden;
+    margin-bottom: -50px;
+    margin-top: -10px;
+    
+}
+.form-cover h1{
+    font-size: 30px;
+    border: 2px solid black;
+    font-family: 'Playfair Display', serif;
+    background: #1f5a92;
+    text-align: center;
+    transition: 0.7s;
+   padding: 10px;
+   
+
+   
+  
+    
+}
+.form-cover h1:hover{
+    background: white;
+    color:#1f5a92; 
+    
+}
+.form-cover h1{
+    padding-top: 0;
+    margin-top: 0;
+}
+form{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+form .info{
+    padding: 10px;
+    text-align: center;
+    transition: 0.6s;
+    
+    
+}
+form .info:hover{
+    background: #1f5a92; 
+}
+form{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-right: 20px;
+    
+}
+form .info-1{
+    padding: 10px;
+    text-align: center;
+    transition: 0.6s;
+    margin-left: 20px;
+    
+    
+}
+form .info-1:hover{
+    background: #1f5a92; 
+}
+
+
+form{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-right: 20px;
+    
+}
+form .info-2{
+    padding: 10px;
+    text-align: center;
+    transition: 0.6s;
+    margin-left: 20px;
+    
+    
+}
+form .info-2:hover{
+    background: #1f5a92; 
+}
+
+
+form{
+    text-align: center;
+    margin-top: 70px;
+    display: block;
+    margin-right: 20px;
+    display: block;
+    
+    
+}
+form .info-3{
+    padding: 10px;
+    text-align: center;
+    transition: 0.6s;
+    margin-left: 670px;
+    display: block;
+    margin-top: -39px;
+    
+    
+    
+}
+form .info-2{
+    display: block;
+     margin-left: 450px;
+    margin-top: 30px;
+}
+
+
+form .info-3:hover{
+    background: #1f5a92; 
+}
+
+form{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-right: 20px;
+    
+}
+form .info-4{
+    padding: 10px;
+    text-align: center;
+    transition: 0.6s;
+    margin-left: 20px;
+    
+    
+}
+form .info-4:hover{
+    background: white;
+    transition: 0.5s;
+}
+form .info-4{
+    display: block;
+    margin-left: 570px;
+    margin-top: 40px;
+    font-weight:900;
+    font-family: 'Playfair Display', serif;
+    background-color: #1f5a92; 
+    color: black;
+    
+}
+
+/*...  contact part end.. */
+
+
+/*...  footer part start. */
+
+.copy_cont{
+    width: 100%;
+    height: 20%;
+    background-color: #e4e4e1;
+}
+.copy_cont p{
+    text-align: center;
+    padding: 15px;
+    margin-top:0px;
+    
+}
+.copy_cont p a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#1f5a92;  
+        
+}
+/*IMG OVERLEY*/
+.container {
+  position: relative;
+    width:300px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px !important;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 32px;
+    border-radius: 50px;
+    
+}
+
+/*...  footer part end.. */
+
+
+/*SERVICE IMG*/
+
+    
+
+
+
+.container-one {
+  position: relative;
+  width: 300px;
+    
+}
+
+.image-one {
+  display: block;
+  width: 300px;
+  height: 250px;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: 20px;
+  right: 0px;
+  height: 0;
+  width: 100%;
+  opacity: 0;
+  overflow: hidden;  
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-one:hover .over {
+  opacity: 0.5;
+  bottom: 0;
+  height: 100%;  
+}
+
+.icon{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
